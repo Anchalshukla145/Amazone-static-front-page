@@ -1,0 +1,280 @@
+*{
+   
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    border: border-box;
+   
+}
+/*nav -bar box 1*/
+body{
+    background-color: #cccccc;
+}
+.nav-bar{
+
+    height: 60px;
+
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:55px;
+    width: 113px;
+}
+.logo{
+    background-image: url("Amazon-Logo-Black.jpg");
+    background-size: cover;
+   height:55px;
+   width:100%;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/*box two*/
+
+.add-f{
+  color: #cccccc;
+  font-size: 0.75rem;
+  margin-left: 15px;
+}
+.add-l{
+  color: white;
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.address-icon{
+    display:flex;
+    align-items: center;
+}
+/*third-box*/
+.nav-search{
+    display: flex;
+    background-color:#fbb253;
+    height: 40px;
+    width:  620px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid #fbb253;
+}
+.Search-select{
+ background-color: #f3f3f3f3;
+ width: 50px;
+ text-align: center;
+ border-top-left-radius: 4px;
+ border-bottom-left-radius: 4px;
+ border: none;
+}
+.search-input{
+    width: 520px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    color: black;
+    background-color: #fbb253;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:  15px;
+    border: none;
+    font-size: 1.2rem;
+}
+/* box 4*/
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*box 5*/
+/*box 6*/
+.nav-cart{
+    display: flex;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart p{
+    margin-top: 15px;
+    font-weight: 700;
+}
+/*panel*/
+.panel{
+    height: 39px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    display: flex;
+}
+.panel-details{
+    width: 70%;
+    font-size: 0.85rem;
+
+}
+.panel-details a{
+   margin-left: 15px;
+
+    
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/*top-sec*/
+.top-sec{
+    background-image: url(top.png);
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.msg{
+    color: black;
+    background-color: white;
+
+    height:30px;
+    text-align: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-left:70px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    width: 90%;
+}
+.msg a{
+    color: #007185;
+}
+/**content*/
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+.box{
+    padding: 25px 0px 20px;
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    margin: 15px;
+    
+}
+.box-img1{
+    height:300px;
+   
+    padding: 25px 0px 20px;
+    background-image: url(flower.jpg.jpg);
+
+    background-size: cover;
+    
+}
+.box-img2{
+    height:300px;
+   
+    padding: 25px 0px 20px;
+    background-image: url(outfit.jpg.jpg);
+
+
+    background-size: cover;
+}
+.box-img3{
+    height:300px;
+   
+    padding: 25px 0px 20px;
+    background-image: url(table.jpg.jpg);
+
+
+    background-size: cover;
+}
+.box-img4{
+    height:300px;
+   
+    padding: 25px 0px 20px;
+    background-image: url(phone.jpg.jpg);
+
+
+    background-size: cover;
+}
+.box-img5{
+    height:300px;
+   
+    padding: 25px 0px 20px;
+    background-image: url(tshirt.jpg.jpg);
+
+
+    background-size: cover;
+}
+.box-img6{
+    height:300px;
+   
+    padding: 25px 0px 20px;
+    background-image: url(kidscloth.jpg);
+
+
+    background-size: cover;
+}
+.box-img7{
+    height:300px;
+   
+    padding: 25px 0px 20px;
+    background-image: url(decorations.jpg);
+
+
+    background-size: cover;
+}
+.box-img8{
+    height:300px;
+   
+    padding: 25px 0px 20px;
+    background-image: url(christian-bolt-VW5VjskNXZ8-unsplash.jpg);
+
+
+    background-size: cover;
+}
+.box-content{
+    margin-left:1rem ;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+}
+/*footer*/
+footer{
+    margin-top: 15px;
+    
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul h3{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
